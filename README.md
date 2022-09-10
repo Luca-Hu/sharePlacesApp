@@ -24,7 +24,7 @@ I use VSCode IDE to build this application. The backend part uses Express.js fra
 
 Details: 
 
-- FrontEnd: React.js, RESTful API (GoogleMap)
+- FrontEnd: React.js, RESTful API (GoogleMap API)
 - Server: Node.js/Express.js
 - Database: MongoDB
 - Authentication & Authorization: JWT(JSON Web Token) in React
