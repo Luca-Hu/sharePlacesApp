@@ -43,12 +43,15 @@ https://shareplacesappyihu.web.app/
 
 < Please wait patiently for the reponse of page. >
 
-<Note: Since no cloud like AWS S3 is used to save images, all images will not be permanently saved, which is a drawback.>
+< Note: Since no cloud like AWS S3 is used to save images, all images will not be permanently saved, which is a drawback. >
 
+The homepage is "ALL USERS" page, you can click the user-photos to browser their post(s). If you want use "ADD PLACE" module to create a new post, or use "MY PLACE" module to browser/edit/delete your post(s), you need sign up or sign in.
 
-You can login default user1 's account : Email: test1@test.com ， Password:tester
+You can click "Authentication" button in the nav bar to login default user1 's account : **Email: test1@test.com ， Password:tester**
 
-(Tips: All default users' initial password is "tester", you can login other default users' account: test(1~6)@test.com )
+< Tips: All default users' initial password is "tester", you can login other default users' account: test(1~6)@test.com >
+
+You also can sign-up a new account, your account will auto-login after signup successfully.
 
 
 -----------
@@ -59,19 +62,23 @@ You can login default user1 's account : Email: test1@test.com ， Password:test
 
 As a visitor, you can enter other user's homepage, view their posted picture and click the "View On Map" button to check the location on Google Map. But visitor can not edit/delete other user's places.
 
-- 2、User Signup & Signin
+- 2、User Sign-up & Sign-in
 
  You can click "Authentication" button at the top right to signup/login. If you signup, you will login automatically.
+ 
+- 3、Edit & Delete your post
 
-- 3、Upload Images To Share
+ You can edit your post information or delete your post in "My Places".
+
+- 4、Upload Images To Share
 
 After you login, you can access to two modules: "My Places" and "Add Place". In "Add Place" module, you can create new post to share where you are and add your review. In "My Places" module, you can edit/delete your places.
 
-- 4、Locate address By Google Map API
+- 5、Locate address By Google Map API
 
-When you create new post of place, you need to type a valid address or a keyword so that the Google Map API can automatically locate an accrate address on map. You can view the result by click the "View On Map" button after posting. 
+When you create new post of place, you need to type a valid address or unique keywords so that the Google Map API can automatically locate an accrate address on map. You can view the result by click the "View On Map" button after posting. 
 
-- 5、Auto Login/Logout - Token
+- 6、Auto Log-in/Log-out ( By using Token )
 
 The application uses the site Token to maintain auto-login and auto-logout within an hour. Even if you don't actively logout, your account will be automatically logged out after an hour.
 
@@ -80,7 +87,7 @@ The application uses the site Token to maintain auto-login and auto-logout withi
 
 5、 Demonstration
 
-- This Web Application's HomePage :
+- This Web Application's HomePage("All Users" module). You can click other user's photo to browser their posts:
 
 ![image](https://user-images.githubusercontent.com/69294450/189479638-db253fdd-0ee5-40b8-b038-1304184b990d.png)
 
