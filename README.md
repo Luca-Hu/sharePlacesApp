@@ -112,6 +112,6 @@ The application uses the site Token to maintain auto-login and auto-logout withi
 
 5、If you have any questions or advices, please feel free to contact me.
 
-My Linken Account： www.linkedin.com/in/yi-hu-58852321a
+My Linken Account：  < https://linkedin.com/in/yihu-tech >
 
 My Email： yihu@smu.edu 
