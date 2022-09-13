@@ -2,9 +2,7 @@
 
 1、Introduction To SharePlacesApp
 
-SharePlaces App is a MERN application.
-
-**I built this fullstack React.js application with Node.js, Express.js & MongoDB.**
+**I built this fullstack React.js application with Node.js, Express.js & MongoDB. (MERN stack)**
 
 It is an amazing Web application for Real Time photo sharing, which is similar to apps like Instagram in function. You can create your own account (password will be hashed) and post the pictures you want to share on your own homepage. The application also allows you to edit and delete your own images. Meanwhile, the GoogleMap API will automatically locate your typed address on the map, and anyone can view the Google Map location corresponding to each picture.
 
@@ -45,13 +43,15 @@ https://shareplacesappyihu.web.app/
 
 < Note: Since no cloud like AWS S3 is used to save images, all images will not be permanently saved, which is a drawback. >
 
-The homepage is "ALL USERS" page, you can click the user-photos to browser their post(s). If you want use "ADD PLACE" module to create a new post, or use "MY PLACE" module to browser/edit/delete your post(s), you need sign up or sign in.
+The homepage is "ALL USERS" page, you can select an user's profile photo to browser his post(s). 
 
-You can click "Authentication" button in the nav bar to login default user1 's account : **Email: test1@test.com ， Password:tester**
+You need sign up or sign in to use "ADD PLACE" module to create a new post, and use "MY PLACE" module to browser/edit/delete your post(s), .
 
-< Tips: All default users' initial password is "tester", you can login other default users' account: test(1~6)@test.com >
+You can click on "Authentication" button in the nav bar to sign up a new account, your account will auto-login after signup successfully.
 
-You also can sign-up a new account, your account will auto-login after signup successfully.
+Or you can redirectly login default user1 's account : **Email: test1@test.com ， Password:tester**
+
+< Tips: All default users' initial password is "tester", you can login other default users' account, just change email: test(1~8)@test.com >
 
 
 -----------
@@ -60,7 +60,7 @@ You also can sign-up a new account, your account will auto-login after signup su
 
 - 1、Authentication & Authorization
 
-As a visitor, you can enter other user's homepage, view their posted picture and click the "View On Map" button to check the location on Google Map. But visitor can not edit/delete other user's places.
+As a visitor, you can browser other user's homepage, view their posted picture and click the "View On Map" button to check the location on Google Map. But visitor can not edit/delete other user's places.
 
 - 2、User Sign-up & Sign-in
 
